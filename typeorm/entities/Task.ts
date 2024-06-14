@@ -14,4 +14,7 @@ export class Task {
 
   @Column()
   createdAt: Date;
+
+  // @Column()
+  // updatedAt: Date;
 }
