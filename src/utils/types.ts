@@ -1,10 +1,12 @@
 /* eslint-disable prettier/prettier */
-export type CreateTaskParams = {
-  taskName: string;
-  taskDetail: string;
+export type CreateUserParams = {
+  username: string;
+  email: string;
+  password_hash: string;
 };
 
-export type UpdateTaskParams = {
-  taskName: string;
-  taskDetail: string;
+export type UpdateUserParams = {
+  username: string;
+  email: string;
+  password_hash: string;
 };
